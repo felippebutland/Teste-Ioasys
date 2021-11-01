@@ -1,7 +1,4 @@
-Regras de negocio:
-
-
-Usuários:
+### Usuários:
 
 Para criar um usuário administrador, dispare a rota 'api/v1/users/addAdmin' -> passando as informações necessárias para criar o cadastro de um usuário;
 
@@ -17,11 +14,10 @@ Para buscar todos os usuários inativos, dispare a rota 'api/v1/users/getAllUser
 
 Para atualizar um determinado usuário, dispare a rota 'api/v1/users/updateUsers' -> essa rota atualiza as informações do usuário determinado (passando o ID como parâmetro)
 
-
 Para deletar (desativar) um determinado usuário, dispare a rota 'api/v1/users/deleteUsers' -> essa rota inativa o usuario;
 
 
-Filmes:
+### Filmes:
 
 Para inserir um novo filme, dispare a rota 'api/v1/filmes/addFilmes', Para inserir o registro, você tem que passar como parâmetro o id do seu usuário, e será possível apenas inserir sendo seu usuário for administrador;
 
