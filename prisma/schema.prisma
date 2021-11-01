@@ -16,7 +16,8 @@ model Filmes {
   description String
   genre     String
   director  String
-  status    String
+  status    String  
+  userAdd   String  @default(value: "")
 }
 
 model Users {

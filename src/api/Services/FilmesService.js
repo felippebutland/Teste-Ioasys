@@ -17,6 +17,7 @@ class FilmesService {
                         genre: genero,
                         director: diretor,
                         status: 'A',
+                        userAdd: data.id
                     }
                 });
                 return {success: "Filme adicionado com sucesso!"}
