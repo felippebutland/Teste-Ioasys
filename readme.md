@@ -75,6 +75,16 @@ Uma cópia de todas as requisições estão na pasta:
 Requisições
 ```
 
+### Migrations 
+
+Para rodar as migrations, rode em seu terminal:
+
+```
+npx prisma migrate dev --name init 
+```
+
+Lembre-se de conectar o banco com as informações corretas.
+
 Apenas importe para seu simulador de API Client preferido.
 
 Para quaisquer dúvida, não hesite me contatar:
